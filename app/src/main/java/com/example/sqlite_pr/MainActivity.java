@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
-
+// сделать номальные пробелы
             TotalTask =findViewById(R.id.TotalCount);
             AddTask=findViewById(R.id.addButton);
             Tasks=findViewById(R.id.Tasks);
@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
             Tasks.setAdapter(Adapter);
             AddTask.setOnClickListener(new View.OnClickListener() {
                 @Override
+                    // не хватает оператных скобок
                 public void onClick(View v) {
                     if (Task.getText().toString().isEmpty() || Data.getText().toString().isEmpty())
                         return;
