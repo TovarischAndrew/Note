@@ -12,7 +12,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public DBHelper(Context context){
         super(context, "db", null, 1);
     }
-
+//TODO : подумать как реализовать по другому
     @Override
     public void onCreate(SQLiteDatabase db){
         String SQL_CREATE_GUESTS_TABLE="CREATE TABLE storage ("
