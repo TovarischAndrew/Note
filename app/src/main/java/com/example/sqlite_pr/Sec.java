@@ -1,5 +1,5 @@
 package com.example.sqlite_pr;
-
+// навзание переменной точно должно быть через нижнее подчеркивание?
 public class Sec {
     private String _Name;
     private String _Data;
